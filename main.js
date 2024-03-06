@@ -9,7 +9,7 @@ function createMainWindow(){
         
 
     });
-    mainWindow.loadFile(path.join(__dirname, './renderer/Mio2.html'));
+    mainWindow.loadFile(path.join(__dirname, './renderer/yourFrontend.html'));
 
 }
 app.whenReady().then(() =>{
